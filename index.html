@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"> </script>
+    
 
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="Search City" id="search" spellcheck="false">
+            <input type="text" placeholder="Search city name" id="search" spellcheck="false">
             <button ><img src="images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>City not found</p>
         </div>
         <div class="weather">
             <img src="images/rain.png" class="Weather-icon">
@@ -29,7 +32,7 @@
             <div class="col">
                 <img src="images/wind.png" >
                 <div>
-                    <p class="humidity">12Km/h</p>
+                    <p class="wind">12Km/h</p>
                     <p>Wind Speed</p> 
                 </div>
             
@@ -37,6 +40,9 @@
         </div>
         
     </div>
+
+    <script src="script.js"> </script>
+    
     
 </body> 
 </html>
